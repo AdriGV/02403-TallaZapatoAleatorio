@@ -26,8 +26,24 @@ public final class Main {
     public static final Random RND = new Random();
 
     public static void main(String[] args) {
+       
+        // constantes
+        
+        // final int TALLA_MIN = 20
+        // final int TALLA_MAX = 60
+        
+        // variables
+
         int talla;
+        
+        // Generar dato
+        
         talla = RND.nextInt(60 - 20 + 1) + 20;
+        
+        // talla = RND.nextInt(TALLA_MAX - TALLA_MIN + 1) + TALLA_MIN
+
+        // Mensaje
+        
         System.out.printf("Talla de zapato ...........: %d%n", talla);
     }
 }
